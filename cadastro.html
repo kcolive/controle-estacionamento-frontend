@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Reserva de Vaga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Reserva de Vaga</h1>
+        <form id="cadastroForm">
+            <div class="form-group">
+                <label for="placa">Placa do Veículo:</label>
+                <input type="text" id="placa" name="placa" required>
+            </div>
+            <div class="form-group">
+                <label for="nomeProprietario">Nome do Proprietário:</label>
+                <input type="text" id="nomeProprietario" name="nomeProprietario" required>
+            </div>
+            <div class="form-group">
+                <label for="numeroApartamento">Número do Apartamento:</label>
+                <input type="number" id="numeroApartamento" name="numeroApartamento" required>
+            </div>
+            <div class="form-group">
+                <label for="blocoApartamento">Bloco do Apartamento:</label>
+                <input type="text" id="blocoApartamento" name="blocoApartamento" required>
+            </div>
+            <div class="form-group">
+                <label for="modeloVeiculo">Modelo do Veículo:</label>
+                <input type="text" id="modeloVeiculo" name="modeloVeiculo" required>
+            </div>
+            <div class="form-group">
+                <label for="corVeiculo">Cor do Veículo:</label>
+                <input type="text" id="corVeiculo" name="corVeiculo" required>
+            </div>
+            <div class="form-group">
+                <label for="numeroVaga">Número da Vaga:</label>
+                <input type="number" id="numeroVaga" name="numeroVaga" required>
+            </div>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Vagas Cadastradas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Vagas Cadastradas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Placa</th>
+                    <th>Proprietário</th>
+                    <th>Apartamento</th>
+                    <th>Bloco</th>
+                    <th>Vaga</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="listaDeVagas">
+                <tr>
+                    <td>ABC-1234</td>
+                    <td>João Silva</td>
+                    <td>101</td>
+                    <td>A</td>
+                    <td>1</td>
+                    <td><button class="remover-btn" data-id="1">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>DEF-5678</td>
+                    <td>Maria Oliveira</td>
+                    <td>202</td>
+                    <td>B</td>
+                    <td>2</td>
+                    <td><button class="remover-btn" data-id="2">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>GHI-9012</td>
+                    <td>Carlos Souza</td>
+                    <td>103</td>
+                    <td>A</td>
+                    <td>3</td>
+                    <td><button class="remover-btn" data-id="3">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>JKL-3456</td>
+                    <td>Ana Pereira</td>
+                    <td>301</td>
+                    <td>C</td>
+                    <td>4</td>
+                    <td><button class="remover-btn" data-id="4">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>MNO-7890</td>
+                    <td>Ricardo Lima</td>
+                    <td>201</td>
+                    <td>B</td>
+                    <td>5</td>
+                    <td><button class="remover-btn" data-id="5">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>PQR-1122</td>
+                    <td>Fernanda Costa</td>
+                    <td>102</td>
+                    <td>A</td>
+                    <td>6</td>
+                    <td><button class="remover-btn" data-id="6">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>STU-3344</td>
+                    <td>Gustavo Rocha</td>
+                    <td>302</td>
+                    <td>C</td>
+                    <td>7</td>
+                    <td><button class="remover-btn" data-id="7">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>VWX-5566</td>
+                    <td>Patrícia Mendes</td>
+                    <td>203</td>
+                    <td>B</td>
+                    <td>8</td>
+                    <td><button class="remover-btn" data-id="8">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>YZA-7788</td>
+                    <td>Bruno Tavares</td>
+                    <td>104</td>
+                    <td>A</td>
+                    <td>9</td>
+                    <td><button class="remover-btn" data-id="9">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>BCD-9900</td>
+                    <td>Amanda Vargas</td>
+                    <td>303</td>
+                    <td>C</td>
+                    <td>10</td>
+                    <td><button class="remover-btn" data-id="10">Remover</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="listar.js"></script>
+</body>
+</html>
